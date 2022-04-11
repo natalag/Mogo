@@ -1,0 +1,29 @@
+.button{
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #FFFFFF; 
+    border: 4px solid #FFFFFF;
+    padding: 25px 130px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.button:hover {
+color: #E4BE8D;
+background: #FFFFFF;
+}
+.button:active{
+    color: #E4BE8D;
+    background: #FFFFFF;
+    border: 4px solid #E4BE8D;
+    }
+
+    @media (max-width: 1024px){
+.button{
+    font-size: 18px;
+    line-height: 21px;
+    padding: 15px 110px;
+    
+    }
+}

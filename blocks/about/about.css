@@ -1,0 +1,121 @@
+.about{
+font-family: 'Raleway'; 
+}
+.about__text{
+text-align: center;
+font-size: 18px;
+line-height: 21px;
+padding-bottom: 70px;
+}
+.about__text_left{
+text-align: left;
+padding-bottom: 0px;
+}
+.about__team{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+.about__teamImg{
+    position: relative;
+}
+.about__teamDisr{
+width: 100%;
+height: 100%;
+background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+bottom: 16px;
+right: 16px;
+font-family: 'Raleway';
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #FFFFFF;
+text-align: center;
+position: absolute;
+display: none;
+}
+.about__teamImg:hover .about__teamDisr{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 30px;
+
+    }
+    .about__teamImg:hover .about__teamDisr_row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+    }
+.about__teamDisr_left{
+    width: 80px;
+    height: 80px;
+    left: -14px;
+    bottom: 25px;
+    background: none;
+    display: block;
+}
+.about__teamColumn{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+.about__teamColumn_left{
+    align-items: flex-start;    
+}
+.about__textName{
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+text-transform: uppercase;
+color: #2D3033;
+}
+.about__textProf{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #2D3033;
+}
+.about__view{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+}
+.about__iconLink{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 42px;
+height: 42px;
+background: #F9EFCF;
+}
+.about__iconLink:hover{
+background: #F38281;
+}
+.about__iconLink:hover .about__icon{
+    fill: white;
+    }
+
+    @media (max-width: 1024px)  {
+        .about__text{
+            font-size: 14px;
+            line-height: 16px;
+        } 
+        .about__team{
+        gap: 20px;
+
+        }
+        .about__textName{
+            font-size: 18px;
+            line-height: 21px;
+        }
+    
+    }

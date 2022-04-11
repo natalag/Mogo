@@ -1,0 +1,18 @@
+@import url('./node_modules/reset.css/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@700&family=Raleway:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700&display=swap');
+@import url("./blocks/header/header.css");
+@import url("./blocks/intro/intro.css");
+@import url("./blocks/about/about.css");
+@import url("./blocks/service/service.css");
+@import url("./blocks/works/works.css");
+@import url("./blocks/intro/intro.css");
+@import url("./blocks/design/design.css");
+@import url("./blocks/statement/statement.css");
+@import url("./blocks/title/title.css");
+@import url("./blocks/button/button.css");
+@import url("./blocks/page/page.css");
+@import url("./blocks/footer/footer.css");
+@import url("./blocks/container/container.css");
+@import url("./blocks/activity/activity.css");
+@import url("./blocks/number/number.css");
+
